@@ -56,42 +56,42 @@ a {
 	box-shadow: 0 3px 3px rgba(0,0,0,.15);
 }
 
-#box , #box2 {
+#box , #box2 , #box3 {
 	background-color:#fafafa;
 	background-size: cover;
 	min-height: 250px;
 	padding-top: 30px;
 }
 
-#box h1 , #box2 h1 {
+#box h1 , #box2 h1 , #box3 h1 {
 	font-size: 17pt;
 	margin-top: -15px;
 	font-weight: 600;
 }
 
-#box h4 , #box2 h4 {
+#box h4 , #box2 h4 , #box3 h4 {
 	font-size: 12pt;
 	margin-top: -15px;
 }
 
-#box h1, #box h4 , #box2 h1, #box2 h4 {
+#box h1, #box h4 , #box2 h1, #box2 h4 , #box3 h1 , #box3 h4 {
 	color: #1f1f1f;
 	text-align: center;
 }
 
-#box .bime , #box2 .bime {
+#box .bime , #box2 .bime , #box3 .bime {
 	width: 100%;
 	max-width: 900px;
 	margin: -15px auto;
 }
 
-#box .bime ul , #box2 .bime ul{
+#box .bime ul , #box2 .bime ul , #box3 .bime ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-#box .bime a , #box2 .bime a {
+#box .bime a , #box2 .bime a , #box3 .bime a{
 	margin: 0 auto;
 	display: block;
 	width: 130px;
@@ -108,13 +108,13 @@ a {
 	transition-property: box-shadow, transform;
 }
 
-#box .bime a:hover, #topheader .ozviat:hover, #soal .tarh:hover, #abzarak2 .tarh:hover , #box2 .bime a:hover {
+#box .bime a:hover, #topheader .ozviat:hover, #soal .tarh:hover, #abzarak2 .tarh:hover , #box2 .bime a:hover , #box3 .bime a:hover {
 	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.8);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
 
-#box .bime a div , #box2 .bime a div {
+#box .bime a div , #box2 .bime a div , #box3 .bime a div {
 	position: absolute;
 	margin: auto;
 	display: block;
@@ -127,11 +127,11 @@ a {
 	box-sizing: border-box;
 }
 
-#box .bime a div span , #box2 .bime a div span {
+#box .bime a div span , #box2 .bime a div span , #box3 .bime a div span {
 	display: block;
 }
 
-#box .bime a div b , #box2 .bime a div b {
+#box .bime a div b , #box2 .bime a div b , #box3 .bime a div b {
 	font-size: 13px;
 }
 
@@ -165,6 +165,18 @@ a {
 
 .bi8 {
 	background: #1985f3;
+}
+.bi9 {
+	background: #c729a6;
+}
+.bi10 {
+	background: #c729a6;
+}
+.bi11 {
+	background: #c729a6;
+}
+.bi12 {
+	background: #c729a6;
 }
 
 #soal {
@@ -462,7 +474,7 @@ a {
 	}
 }
 @media all and (max-width: 768px) and (min-width: 420px) {
-	#box , #box2 {
+	#box , #box2 , #box3 {
 		padding-bottom: 15px;
 	}
 	.arz {
@@ -479,7 +491,7 @@ a {
 	}
 }
 @media all and (max-width: 420px) and (min-width: 260px) {
-	#box , #box2 {
+	#box , #box2 , #box3 {
 		padding-bottom: 15px;
 	}
 	.arz {

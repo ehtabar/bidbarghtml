@@ -59,7 +59,7 @@ a {
 #box , #box2 , #box3 {
 	background-color:#fafafa;
 	background-size: cover;
-	min-height: 250px;
+	min-height: 230px;
 	padding-top: 30px;
 }
 
@@ -82,7 +82,7 @@ a {
 #box .bime , #box2 .bime , #box3 .bime {
 	width: 100%;
 	max-width: 900px;
-	margin: -15px auto;
+	margin: -25px auto;
 }
 
 #box .bime ul , #box2 .bime ul , #box3 .bime ul{
@@ -108,7 +108,7 @@ a {
 	transition-property: box-shadow, transform;
 }
 
-#box .bime a:hover, #topheader .ozviat:hover, #soal .tarh:hover, #abzarak2 .tarh:hover , #box2 .bime a:hover , #box3 .bime a:hover {
+#box .bime a:hover, #topheader .ozviat:hover, #soal .tarh:hover, #soal2 .tarh:hover, #abzarak2 .tarh:hover , #box2 .bime a:hover , #box3 .bime a:hover {
 	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.8);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -167,16 +167,16 @@ a {
 	background: #1985f3;
 }
 .bi9 {
-	background: #c729a6;
+	background: #1985f3;
 }
 .bi10 {
-	background: #c729a6;
+	background: #1985f3;
 }
 .bi11 {
-	background: #c729a6;
+	background: #1985f3;
 }
 .bi12 {
-	background: #c729a6;
+	background: #1985f3;
 }
 
 #soal {
@@ -205,6 +205,41 @@ a {
 }
 
 #soal .tarh {
+	background: #ffad00;
+	color: #fff;
+	padding: 10px;
+	display: block;
+	width: 170px;
+	margin: 0 auto;
+	border-radius: 4px;
+	box-shadow: 0 3px 3px rgba(0,0,0,.15);
+}
+#soal2 {
+	text-align: center;
+	padding-bottom: 20px;
+	background: #f0f0f0;
+	padding: 20px;
+}
+
+#soal2 h2 {
+	margin-top: -10px;
+	font-weight:bolder;
+}
+
+#soal2 h4 {
+	font-size: 12pt;
+	margin: -5px auto 20px;
+}
+
+#soal2 h4 a {
+	color: #1f1f1f;
+}
+
+#soal2 h4 a:hover {
+	color: #125dab;
+}
+
+#soal2 .tarh {
 	background: #ffad00;
 	color: #fff;
 	padding: 10px;
@@ -926,3 +961,30 @@ td,
 th {
   padding: 0;
 }
+#searchbox{
+	margin: auto;
+	text-align: center;
+	background-color: #eeeeee;
+	padding:10px 0px 0px 0px;
+}
+#searchbox .search{
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+.cse input.gsc-input, input.gsc-input {
+background-image:url(“images/blue-logo.png”) !important;
+background-repeat:no-repeat;
+background-color:#fff;
+}
+.cse input.gsc-input:focus, input.gsc-input:focus {
+background-image:none !important;
+}
+.cse input.gsc-input, input.gsc-input {
+background-image:none !important;
+}
+@media (max-width: 960px){
+	#searchbox .search {
+		width: 80% !important;
+	}

@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<script/>
+<ShortName>bidbarg</ShortName>
+<Description>مشاوره آگاه </Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16" type="image/x-icon">
+https://www.bidbarg.com/images/blue-logo.png
+</Image>
+<Url type="text/html" method="get" template="https://cse.google.com/cse?cx=007205556816626966315:q1eykhxljbw&q={searchTerms}"/>
+</OpenSearchDescription>
